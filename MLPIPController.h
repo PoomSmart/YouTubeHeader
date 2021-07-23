@@ -3,8 +3,8 @@
 #import "MLHAMSBDLSampleBufferRenderingView.h"
 
 @interface MLPIPController : NSObject <AVPictureInPictureControllerDelegate, AVPictureInPictureSampleBufferPlaybackDelegate>
-@property(retain, nonatomic) MLAVPIPPlayerLayerView *AVPlayerView;
-@property(retain, nonatomic) MLHAMSBDLSampleBufferRenderingView *HAMPlayerView;
+@property (retain, nonatomic) MLAVPIPPlayerLayerView *AVPlayerView;
+@property (retain, nonatomic) MLHAMSBDLSampleBufferRenderingView *HAMPlayerView;
 - (id)initWithPlaceholderPlayerItem:(AVPlayerItem *)playerItem;
 - (id)initWithPlaceholderPlayerItemResourcePath:(NSString *)placeholderPath;
 - (AVPictureInPictureControllerContentSource *)newContentSource;

@@ -1,7 +1,7 @@
 #import "YTSingleVideoController.h"
 
 @interface YTPlayerPIPController : NSObject
-@property(retain, nonatomic) YTSingleVideoController *activeSingleVideo;
+@property (retain, nonatomic) YTSingleVideoController *activeSingleVideo;
 - (instancetype)initWithPlayerView:(id)playerView delegate:(id)delegate;
 - (instancetype)initWithDelegate:(id)delegate;
 - (GIMMe *)gimme;

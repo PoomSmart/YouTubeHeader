@@ -4,7 +4,7 @@
 #import "GIMMe.h"
 
 @interface MLAVPlayer : MLPlayer
-@property(assign) BOOL active;
+@property (assign) BOOL active;
 - (GIMMe *)gimme;
 - (MLVideo *)video;
 - (MLInnerTubePlayerConfig *)config;
