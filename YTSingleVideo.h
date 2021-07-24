@@ -1,5 +1,5 @@
 #import "MLVideo.h"
 
 @interface YTSingleVideo : NSObject
-- (MLVideo *)video;
+@property (strong, nonatomic) MLVideo *video;
 @end

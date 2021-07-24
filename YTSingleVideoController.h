@@ -3,7 +3,7 @@
 #import "YTSingleVideo.h"
 
 @interface YTSingleVideoController : NSObject
-- (YTSingleVideo *)singleVideo;
+@property (strong, nonatomic) YTSingleVideo *singleVideo;
 - (YTSingleVideo *)videoData;
 - (YTLocalPlaybackController *)delegate;
 - (NSArray <MLFormat *> *)selectableVideoFormats;
