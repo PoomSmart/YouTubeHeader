@@ -10,6 +10,7 @@
 - (AVPictureInPictureControllerContentSource *)newContentSource;
 - (BOOL)isPictureInPictureSupported;
 - (BOOL)isPictureInPictureActive;
+- (BOOL)pictureInPictureActive;
 - (BOOL)contentSourceNeedsRefresh;
 - (MLAVPIPPlayerLayerView *)playerLayerView;
 - (CGSize)renderSizeForView:(MLAVPIPPlayerLayerView *)view;
