@@ -1,4 +1,5 @@
-#import <Foundation/Foundation.h>
+#import "YTIMediaCommonConfig.h"
 
 @interface MLInnerTubePlayerConfig : NSObject
+- (YTIMediaCommonConfig *)mediaCommonConfig;
 @end
