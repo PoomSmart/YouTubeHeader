@@ -5,5 +5,5 @@
 - (YTIHotConfigGroup *)hotConfigGroup;
 - (YTIIosMediaHotConfig *)mediaHotConfig;
 - (YTIHamplayerHotConfig *)hamplayerHotConfig;
-- (bool)iosReleasePipControllerOnMain;
+- (BOOL)iosReleasePipControllerOnMain;
 @end
