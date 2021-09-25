@@ -7,7 +7,7 @@
 @property (retain, nonatomic) MLHAMSBDLSampleBufferRenderingView *HAMPlayerView;
 - (id)initWithPlaceholderPlayerItem:(AVPlayerItem *)playerItem;
 - (id)initWithPlaceholderPlayerItemResourcePath:(NSString *)placeholderPath;
-- (AVPictureInPictureControllerContentSource *)newContentSource;
+- (AVPictureInPictureControllerContentSource *)newContentSource API_AVAILABLE(ios(15.0));
 - (BOOL)isPictureInPictureSupported;
 - (BOOL)isPictureInPictureActive;
 - (BOOL)pictureInPictureActive;
