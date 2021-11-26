@@ -13,7 +13,7 @@
 - (BOOL)pictureInPictureActive;
 - (BOOL)contentSourceNeedsRefresh;
 - (MLAVPIPPlayerLayerView *)playerLayerView;
-- (CGSize)renderSizeForView:(MLAVPIPPlayerLayerView *)view;
+- (CGSize)renderSizeForView:(UIView *)view;
 - (void)initializePictureInPicture;
 - (BOOL)startPictureInPicture;
 - (void)stopPictureInPicture;
