@@ -4,4 +4,5 @@
 @property (nonatomic, strong, readwrite) YTISlimMetadataToggleButtonRenderer *slimMetadataToggleButtonRenderer;
 - (BOOL)slimButton_isDislikeButton;
 - (BOOL)slimButton_isOfflineButton;
+- (int)rendererOneOfCase;
 @end
