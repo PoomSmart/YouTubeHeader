@@ -1,8 +1,7 @@
 #import <UIKit/UIKit.h>
-#import "YTSingleVideoController.h"
+#import "YTPlaybackController.h"
 
-@interface YTPlayerViewController : UIViewController
-@property (strong, nonatomic) YTSingleVideoController *activeVideo;
+@interface YTPlayerViewController : UIViewController <YTPlaybackController>
 - (int)playerViewLayout;
 - (void)didPressToggleFullscreen;
 @end

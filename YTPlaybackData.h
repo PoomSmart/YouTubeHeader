@@ -1,5 +1,7 @@
 #import "MLVideo.h"
+#import "YTPlayerResponse.h"
 
 @interface YTPlaybackData : NSObject
-@property (strong, nonatomic) MLVideo *video;
+- (MLVideo *)video;
+- (YTPlayerResponse *)playerResponse;
 @end
