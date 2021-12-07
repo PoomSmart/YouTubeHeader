@@ -4,7 +4,7 @@
 #import "YTIIcon.h"
 
 @interface YTIButtonRenderer : NSObject
-@property(retain, nonatomic) YTICommand *command;
+@property (retain, nonatomic) YTICommand *command;
 @property(retain, nonatomic) YTIIcon *icon;
 @property(retain, nonatomic) YTICommand *navigationEndpoint;
 @property (copy, nonatomic) NSString *targetId;
