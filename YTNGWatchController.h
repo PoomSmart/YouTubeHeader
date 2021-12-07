@@ -1,0 +1,3 @@
+
+@interface YTNGWatchController : NSObject
+@end
