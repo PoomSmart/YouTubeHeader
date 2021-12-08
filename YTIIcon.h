@@ -1,4 +1,4 @@
 #import <Foundation/Foundation.h>
 @interface YTIIcon : NSObject
-@property(nonatomic) int iconType;
+@property (nonatomic) int iconType;
 @end

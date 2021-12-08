@@ -3,5 +3,5 @@
 
 @interface YTICommand : NSObject
 @property (nonatomic, strong, readwrite) YTIReelWatchEndpoint *reelWatchEndpoint;
-@property(retain, nonatomic) YTIBrowseEndpoint *browseEndpoint;
+@property (retain, nonatomic) YTIBrowseEndpoint *browseEndpoint;
 @end
