@@ -1,4 +1,3 @@
-#import <Foundation/Foundation.h>
 #import "YTICommand.h"
 #import "YTIFormattedString.h"
 #import "YTIIcon.h"
@@ -8,9 +7,5 @@
 @property (retain, nonatomic) YTIIcon *icon;
 @property (retain, nonatomic) YTICommand *navigationEndpoint;
 @property (copy, nonatomic) NSString *targetId;
-@property (copy, nonatomic) NSString *tooltip;
-@property (nonatomic) int size;
-@property (nonatomic) int style;
-@property (nonatomic) _Bool isDisabled;
 @property (retain, nonatomic) YTIFormattedString *text;
 @end
