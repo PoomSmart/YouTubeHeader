@@ -8,5 +8,9 @@
 @property (retain, nonatomic) YTIIcon *icon;
 @property (retain, nonatomic) YTICommand *navigationEndpoint;
 @property (copy, nonatomic) NSString *targetId;
-@property (retain, nonatomic) YTIFormattedString *text; // @dynamic text;
+@property (copy, nonatomic) NSString *tooltip;
+@property (nonatomic) int size;
+@property (nonatomic) int style;
+@property (nonatomic) _Bool isDisabled;
+@property (retain, nonatomic) YTIFormattedString *text;
 @end
