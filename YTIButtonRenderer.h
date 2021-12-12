@@ -8,4 +8,8 @@
 @property (retain, nonatomic) YTICommand *navigationEndpoint;
 @property (copy, nonatomic) NSString *targetId;
 @property (retain, nonatomic) YTIFormattedString *text;
+@property (copy, nonatomic) NSString *tooltip;
+@property (nonatomic) int size;
+@property (nonatomic) int style;
+@property (nonatomic) BOOL isDisabled;
 @end
