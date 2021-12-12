@@ -11,5 +11,5 @@
 @property (copy, nonatomic) NSString *tooltip;
 @property (nonatomic) int size;
 @property (nonatomic) int style;
-@property (nonatomic) _Bool isDisabled;
+@property (nonatomic) BOOL isDisabled;
 @end
