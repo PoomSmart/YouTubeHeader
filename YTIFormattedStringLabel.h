@@ -1,6 +1,6 @@
-#import "YTIFormattedStringLabel.h"
+#import "YTIFormattedString.h"
 
 @interface YTIFormattedStringLabel : UILabel
 @property (nonatomic, copy, readwrite) NSAttributedString *attributedText;
-- (void)setFormattedString:(YTIFormattedStringLabel *)string;
+- (void)setFormattedString:(YTIFormattedString *)string;
 @end
