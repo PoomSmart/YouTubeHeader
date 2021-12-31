@@ -1,5 +1,5 @@
 #import "YTSlimVideoDetailsActionViewDelegate.h"
 
-@interface YTSlimVideoScrollableDetailsActionsView : UIScrollView
+@interface YTSlimVideoDetailsActionsView : UIScrollView
 @property (nonatomic, weak, readwrite) NSObject <YTSlimVideoDetailsActionViewDelegate> *videoActionsDelegate;
 @end

@@ -2,4 +2,5 @@
 
 @interface YTLocalPlaybackController : NSObject
 - (GIMMe *)gimme;
+- (NSString *)currentVideoID;
 @end
