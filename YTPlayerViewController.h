@@ -5,6 +5,7 @@
 
 @interface YTPlayerViewController : UIViewController <YTPlaybackController>
 - (GIMMe *)gimme; // Old version
+- (NSString *)currentVideoID;
 - (int)playerViewLayout;
 - (void)didPressToggleFullscreen;
 @end
