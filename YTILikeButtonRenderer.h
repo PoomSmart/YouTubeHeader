@@ -1,3 +1,4 @@
+#import "YTLikeStatus.h"
 #import "YTILikeTarget.h"
 #import "YTIFormattedString.h"
 
@@ -13,7 +14,7 @@
 @property (nonatomic, assign, readwrite) BOOL hasDislikeCountWithDislikeText;
 @property (nonatomic, assign, readwrite) BOOL hasDislikeCountWithUndislikeText;
 @property (nonatomic, assign, readwrite) BOOL likesAllowed;
-@property (nonatomic, assign, readwrite) int likeStatus;
+@property (nonatomic, assign, readwrite) YTLikeStatus likeStatus;
 @property (nonatomic, assign, readwrite) int likeCount;
 @property (nonatomic, assign, readwrite) int dislikeCount;
 @end
