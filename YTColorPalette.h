@@ -1,6 +1,64 @@
-#import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+#import "YTColor.h"
 
-@interface YTColorPalette : NSObject
+@interface YTColorPalette : NSObject {
+    NSInteger _pageStyle;
+    YTColor *_brandBackgroundSolid;
+    YTColor *_brandBackgroundPrimary;
+    YTColor *_brandBackgroundSecondary;
+    YTColor *_generalBackgroundA;
+    YTColor *_generalBackgroundB;
+    YTColor *_generalBackgroundC;
+    YTColor *_errorBackground;
+    YTColor *_textPrimary;
+    YTColor *_textSecondary;
+    YTColor *_textDisabled;
+    YTColor *_textPrimaryInverse;
+    YTColor *_callToAction;
+    YTColor *_iconActive;
+    YTColor *_iconActiveOther;
+    YTColor *_iconInactive;
+    YTColor *_iconDisabled;
+    YTColor *_badgeChipBackground;
+    YTColor *_buttonChipBackgroundHover;
+    YTColor *_touchResponse;
+    YTColor *_callToActionInverse;
+    YTColor *_brandIconActive;
+    YTColor *_brandIconInactive;
+    YTColor *_brandButtonBackground;
+    YTColor *_brandLinkText;
+    YTColor *_tenPercentLayer;
+    YTColor *_snackbarBackground;
+    YTColor *_themedBlue;
+    YTColor *_themedGreen;
+    YTColor *_staticBrandRed;
+    YTColor *_staticBrandWhite;
+    YTColor *_staticBrandBlack;
+    YTColor *_staticClearColor;
+    YTColor *_staticAdYellow;
+    YTColor *_staticGrey;
+    YTColor *_overlayBackgroundSolid;
+    YTColor *_overlayBackgroundHeavy;
+    YTColor *_overlayBackgroundMedium;
+    YTColor *_overlayBackgroundMediumLight;
+    YTColor *_overlayBackgroundLight;
+    YTColor *_overlayTextPrimary;
+    YTColor *_overlayTextSecondary;
+    YTColor *_overlayTextTertiary;
+    YTColor *_overlayIconActiveCallToAction;
+    YTColor *_overlayIconActiveOther;
+    YTColor *_overlayIconInactive;
+    YTColor *_overlayIconDisabled;
+    YTColor *_overlayFilledButtonActive;
+    YTColor *_overlayButtonSecondary;
+    YTColor *_overlayButtonPrimary;
+    YTColor *_overlayBackgroundBrand;
+    YTColor *_overlayBackgroundClear;
+    YTColor *_verifiedBadgeBackground;
+    YTColor *_themedOverlayBackground;
+    YTColor *_adIndicator;
+}
++ (instancetype)lightPalette;
++ (instancetype)darkPalette;
++ (instancetype)colorPaletteForPageStyle:(NSInteger)pageStyle;
 @property (readonly, nonatomic) UIColor *textPrimary;
 @end
