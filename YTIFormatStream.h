@@ -1,5 +1,6 @@
-#import <Foundation/Foundation.h>
+#import "YTIColorInfo.h"
 
 @interface YTIFormatStream : NSObject
-- (NSString *)URL;
+@property (nonatomic, strong, readwrite) YTIColorInfo *colorInfo;
+@property (nonatomic, copy, readwrite) NSString *URL;
 @end
