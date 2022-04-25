@@ -20,4 +20,6 @@
 - (void)addPIPControllerObserver:(id)observer;
 - (void)activatePiPController;
 - (void)deactivatePiPController;
+- (void)pictureInPictureControllerStartPlayback;
+- (void)pictureInPictureControllerStopPlayback;
 @end
