@@ -22,4 +22,5 @@
 - (void)deactivatePiPController;
 - (void)pictureInPictureControllerStartPlayback;
 - (void)pictureInPictureControllerStopPlayback;
+- (void)pause;
 @end
