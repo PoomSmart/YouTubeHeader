@@ -1,10 +1,10 @@
 #import "MLFormat.h"
-#import "YTLocalPlaybackController.h"
+#import "YTSingleVideoControllerDelegate.h"
 #import "YTSingleVideo.h"
 
 @interface YTSingleVideoController : NSObject
-@property (strong, nonatomic) YTSingleVideo *singleVideo;
+@property (nonatomic, weak, readwrite) NSObject <YTSingleVideoControllerDelegate> *delegate;
+- (YTSingleVideo *)singleVideo;
 - (YTSingleVideo *)videoData;
-- (YTLocalPlaybackController *)delegate;
 - (NSArray <MLFormat *> *)selectableVideoFormats;
 @end

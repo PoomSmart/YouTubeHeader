@@ -2,7 +2,7 @@
 #import "YTIHamplayerHotConfig.h"
 
 @interface YTHotConfig : NSObject
-- (YTIHotConfigGroup *)hotConfigGroup;
+@property (atomic, strong, readwrite) YTIHotConfigGroup *hotConfigGroup;
 - (YTIIosMediaHotConfig *)mediaHotConfig;
 - (YTIHamplayerHotConfig *)hamplayerHotConfig;
 - (BOOL)iosReleasePipControllerOnMain;

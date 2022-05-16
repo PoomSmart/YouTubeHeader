@@ -3,13 +3,13 @@
 #import "YTIIcon.h"
 
 @interface YTIButtonRenderer : NSObject
-@property (retain, nonatomic) YTICommand *command;
-@property (retain, nonatomic) YTIIcon *icon;
-@property (retain, nonatomic) YTICommand *navigationEndpoint;
-@property (copy, nonatomic) NSString *targetId;
-@property (retain, nonatomic) YTIFormattedString *text;
-@property (copy, nonatomic) NSString *tooltip;
-@property (nonatomic) int size;
-@property (nonatomic) int style;
-@property (nonatomic) BOOL isDisabled;
+@property (nonatomic, strong, readwrite) YTICommand *command;
+@property (nonatomic, strong, readwrite) YTIIcon *icon;
+@property (nonatomic, strong, readwrite) YTICommand *navigationEndpoint;
+@property (nonatomic, copy, readwrite) NSString *targetId;
+@property (nonatomic, strong, readwrite) YTIFormattedString *text;
+@property (nonatomic, copy, readwrite) NSString *tooltip;
+@property (nonatomic, assign, readwrite) int size;
+@property (nonatomic, assign, readwrite) int style;
+@property (nonatomic, assign, readwrite) BOOL isDisabled;
 @end

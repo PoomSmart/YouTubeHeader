@@ -3,20 +3,19 @@
 #import "MLHAMSBDLSampleBufferRenderingView.h"
 
 @interface MLPIPController : NSObject <AVPictureInPictureControllerDelegate, AVPictureInPictureSampleBufferPlaybackDelegate>
-@property (retain, nonatomic) MLAVPIPPlayerLayerView *AVPlayerView;
-@property (retain, nonatomic) MLHAMSBDLSampleBufferRenderingView *HAMPlayerView;
-- (id)initWithPlaceholderPlayerItem:(AVPlayerItem *)playerItem;
-- (id)initWithPlaceholderPlayerItemResourcePath:(NSString *)placeholderPath;
+@property (nonatomic, strong, readwrite) MLAVPIPPlayerLayerView *AVPlayerView;
+@property (nonatomic, strong, readwrite) MLHAMSBDLSampleBufferRenderingView *HAMPlayerView;
+- (id)initWithPlaceholderPlayerItem:(AVPlayerItem *)playerItem; // Deprecated
+- (id)initWithPlaceholderPlayerItemResourcePath:(NSString *)placeholderPath; // Deprecated
 - (AVPictureInPictureControllerContentSource *)newContentSource API_AVAILABLE(ios(15.0));
 - (BOOL)isPictureInPictureSupported;
-- (BOOL)isPictureInPictureActive;
+- (BOOL)isPictureInPictureActive; // Deprecated
 - (BOOL)pictureInPictureActive;
 - (BOOL)contentSourceNeedsRefresh;
-- (MLAVPIPPlayerLayerView *)playerLayerView;
 - (CGSize)renderSizeForView:(UIView *)view;
-- (void)initializePictureInPicture;
-- (BOOL)startPictureInPicture;
-- (void)stopPictureInPicture;
+- (void)initializePictureInPicture; // Deprecated
+- (BOOL)startPictureInPicture; // Deprecated
+- (void)stopPictureInPicture; // Deprecated
 - (void)addPIPControllerObserver:(id)observer;
 - (void)activatePiPController;
 - (void)deactivatePiPController;

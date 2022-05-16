@@ -1,5 +1,4 @@
-#import <Foundation/Foundation.h>
+#import "MLFormat.h"
 
-@interface MLRemoteStream : NSObject
-- (NSURL *)URL;
+@interface MLRemoteStream : MLFormat
 @end

@@ -1,5 +1,5 @@
 #import "YTIMediaHotConfig.h"
 
 @interface YTIHotConfigGroup : NSObject
-- (YTIMediaHotConfig *)mediaHotConfig;
+@property (nonatomic, strong, readwrite) YTIMediaHotConfig *mediaHotConfig;
 @end

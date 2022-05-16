@@ -1,6 +1,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+// Deprecated, use YTCommonColorPalette
 @interface YTColorPalette : NSObject
 + (instancetype)lightPalette;
 + (instancetype)darkPalette;
