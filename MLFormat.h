@@ -1,3 +1,4 @@
+#import <CoreGraphics/CoreGraphics.h>
 #import "YTIFormatStream.h"
 
 @interface MLFormat : NSObject <NSCopying>

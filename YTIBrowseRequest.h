@@ -1,6 +1,6 @@
-#import <Foundation/Foundation.h>
+#import "GPBMessage.h"
 
-@interface YTIBrowseRequest : NSObject
+@interface YTIBrowseRequest : GPBMessage
 + (NSString *)browseIDForExploreTab;
 + (NSString *)browseIDForAccountTab;
 + (NSString *)browseIDForActivityTab;
