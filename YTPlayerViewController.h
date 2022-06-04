@@ -4,7 +4,7 @@
 #import "YTPlaybackController.h"
 
 @interface YTPlayerViewController : UIViewController <YTPlaybackController>
-- (GIMMe *)gimme; // Old version
+- (GIMMe *)gimme; // Deprecated
 - (NSString *)currentVideoID;
 - (int)playerViewLayout;
 - (void)didPressToggleFullscreen;
