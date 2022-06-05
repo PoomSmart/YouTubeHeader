@@ -1,7 +1,8 @@
 #import "MLAVPlayerLayerView.h"
 #import "MLAVPlayer.h"
+#import "MLAVPlayerViewDelegate.h"
 
 @interface MLAVPIPPlayerLayerView : MLAVPlayerLayerView
-- (AVPlayerLayer *)playerLayer;
-- (MLAVPlayer *)delegate;
+@property (nonatomic, readonly, strong) AVPlayerLayer *playerLayer;
+@property (nonatomic, readwrite, weak) NSObject <MLAVPlayerViewDelegate> *delegate;
 @end

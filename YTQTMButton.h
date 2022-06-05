@@ -1,6 +1,8 @@
 #import <UIKit/UIKit.h>
 
 @interface YTQTMButton : UIButton
++ (instancetype)button;
++ (instancetype)closeButton;
 + (instancetype)iconButton;
-@property (strong, nonatomic) UIImageView *imageView;
++ (instancetype)textButton;
 @end

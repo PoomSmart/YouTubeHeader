@@ -2,6 +2,6 @@
 #import "YTIHamplayerConfig.h"
 
 @interface MLInnerTubePlayerConfig : NSObject
-- (YTIMediaCommonConfig *)mediaCommonConfig;
-- (YTIHamplayerConfig *)hamplayerConfig;
+@property (nonatomic, readonly, strong) YTIMediaCommonConfig *mediaCommonConfig;
+@property (nonatomic, readonly, strong) YTIHamplayerConfig *hamplayerConfig;
 @end

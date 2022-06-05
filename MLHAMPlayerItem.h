@@ -3,6 +3,6 @@
 #import "MLInnerTubePlayerConfig.h"
 
 @interface MLHAMPlayerItem : NSObject
-- (MLInnerTubePlayerConfig *)config;
+@property (nonatomic, readonly, strong) MLInnerTubePlayerConfig *config;
 - (void)ABRPolicy:(MLABRPolicy *)policy selectableFormatsDidChange:(NSArray <MLFormat *> *)formats;
 @end

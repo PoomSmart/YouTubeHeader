@@ -2,4 +2,5 @@
 
 @interface YTWatchController : NSObject
 - (void)showFullScreen;
+- (void)showSmallScreen;
 @end
