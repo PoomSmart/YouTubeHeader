@@ -9,8 +9,8 @@
 + (instancetype)dialog;
 + (instancetype)infoDialog;
 + (instancetype)confirmationDialog;
-+ (instancetype)confirmationDialogWithAction:(id)action actionTitle:(NSString *)actionTitle;
-+ (instancetype)confirmationDialogWithAction:(id)action actionTitle:(NSString *)actionTitle cancelTitle:(NSString *)cancelTitle;
++ (instancetype)confirmationDialogWithAction:(void (^)(void))action actionTitle:(NSString *)actionTitle;
++ (instancetype)confirmationDialogWithAction:(void (^)(void))action actionTitle:(NSString *)actionTitle cancelTitle:(NSString *)cancelTitle;
 + (instancetype)confirmationDialogWithSelector:(SEL)selector actionTitle:(NSString *)actionTitle;
 + (instancetype)confirmationDialogWithSelector:(SEL)selector actionTitle:(NSString *)actionTitle showsCancelButton:(BOOL)showsCancelButton;
 - (void)addCancelButton:(SEL)selector;

@@ -5,8 +5,8 @@
 @interface MLPIPController : NSObject <AVPictureInPictureControllerDelegate, AVPictureInPictureSampleBufferPlaybackDelegate>
 @property (nonatomic, strong, readwrite) MLAVPIPPlayerLayerView *AVPlayerView;
 @property (nonatomic, strong, readwrite) MLHAMSBDLSampleBufferRenderingView *HAMPlayerView;
-- (id)initWithPlaceholderPlayerItem:(AVPlayerItem *)playerItem; // Deprecated
-- (id)initWithPlaceholderPlayerItemResourcePath:(NSString *)placeholderPath; // Deprecated
+- (instancetype)initWithPlaceholderPlayerItem:(AVPlayerItem *)playerItem; // Deprecated
+- (instancetype)initWithPlaceholderPlayerItemResourcePath:(NSString *)placeholderPath; // Deprecated
 - (AVPictureInPictureControllerContentSource *)newContentSource API_AVAILABLE(ios(15.0));
 - (BOOL)isPictureInPictureSupported;
 - (BOOL)isPictureInPictureActive; // Deprecated
