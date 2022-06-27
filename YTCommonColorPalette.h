@@ -9,6 +9,7 @@
 - (UIColor *)background1;
 - (UIColor *)background2;
 - (UIColor *)background3;
+- (UIColor *)staticBlue;
 - (UIColor *)brandBackgroundSolid;
 - (UIColor *)brandBackgroundPrimary;
 - (UIColor *)brandBackgroundSecondary;
@@ -63,4 +64,11 @@
 - (UIColor *)verifiedBadgeBackground;
 - (UIColor *)themedOverlayBackground;
 - (UIColor *)adIndicator;
+- (UIColor *)errorIndicator; // 17.52.1+
+- (UIColor *)baseBackground; // 17.52.1+
+- (UIColor *)raisedBackground; // 17.52.1+
+- (UIColor *)menuBackground; // 17.52.1+
+- (UIColor *)invertedBackground; // 17.52.1+
+- (UIColor *)additiveBackground; // 17.52.1+
+- (UIColor *)outline; // 17.52.1+
 @end
