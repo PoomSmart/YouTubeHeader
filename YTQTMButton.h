@@ -5,4 +5,5 @@
 + (instancetype)closeButton;
 + (instancetype)iconButton;
 + (instancetype)textButton;
+@property (nonatomic, assign, readwrite) BOOL refreshRendererAfterPageStyling;
 @end
