@@ -9,4 +9,5 @@
 + (unsigned int)uniformRandomWithUpperBound:(unsigned int)upperBound;
 + (UIWindow *)mainWindow; // YTMainWindow
 + (NSBundle *)bundleForClass:(Class)cls;
++ (NSString *)hardwareModel;
 @end
