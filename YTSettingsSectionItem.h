@@ -7,9 +7,12 @@
 @property (nonatomic, assign, readwrite) BOOL on;
 @property (nonatomic, assign, readwrite) BOOL enabled;
 @property (nonatomic, assign, readwrite) int settingItemId;
+@property (nonatomic, copy, readwrite) BOOL (^selectBlock)(YTSettingsCell *, NSUInteger);
 @property (nonatomic, copy, readwrite) BOOL (^switchBlock)(YTSettingsCell *, BOOL);
 + (instancetype)itemWithTitle:(NSString *)title accessibilityIdentifier:(NSString *)accessibilityIdentifier detailTextBlock:(id)detailTextBlock selectBlock:(BOOL (^)(YTSettingsCell *, NSUInteger))selectBlock;
 + (instancetype)itemWithTitle:(NSString *)title titleDescription:(NSString *)titleDescription accessibilityIdentifier:(NSString *)accessibilityIdentifier detailTextBlock:(id)detailTextBlock selectBlock:(BOOL (^)(YTSettingsCell *, NSUInteger))selectBlock;
++ (instancetype)switchItemWithTitle:(NSString *)title switchOn:(BOOL)switchOn switchBlock:(BOOL (^)(YTSettingsCell *, BOOL))switchBlock;
 + (instancetype)switchItemWithTitle:(NSString *)title titleDescription:(NSString *)titleDescription accessibilityIdentifier:(NSString *)accessibilityIdentifier switchOn:(BOOL)switchOn switchBlock:(BOOL (^)(YTSettingsCell *, BOOL))switchBlock settingItemId:(int)settingItemId;
++ (instancetype)switchItemWithTitle:(NSString *)title titleDescription:(NSString *)titleDescription accessibilityIdentifier:(NSString *)accessibilityIdentifier switchOn:(BOOL)switchOn switchBlock:(BOOL (^)(YTSettingsCell *, BOOL))switchBlock selectBlock:(BOOL (^)(YTSettingsCell *, NSUInteger))selectBlock settingItemId:(int)settingItemId;
 - (instancetype)initWithTitle:(NSString *)title titleDescription:(NSString *)titleDescription;
 @end
