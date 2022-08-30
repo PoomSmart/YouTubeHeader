@@ -1,4 +1,4 @@
-#import <UIKit/UIKit.h>
+#import "YTQTMButton.h"
 
 @interface YTReelWatchPlaybackOverlayView : UIView
 @property (nonatomic, assign, readonly) YTQTMButton *overflowButton;
