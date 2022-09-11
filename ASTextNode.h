@@ -1,5 +1,5 @@
 #import "ASControlNode.h"
 
-@interface ASTextNode : ASControlNode
+@interface ASTextNode : ASControlNode <UIGestureRecognizerDelegate>
 @property (atomic, copy, readwrite) NSAttributedString *attributedText;
 @end

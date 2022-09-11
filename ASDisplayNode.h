@@ -1,4 +1,5 @@
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface ASDisplayNode : NSObject
 @property (atomic, copy, readwrite) NSArray *yogaChildren;
