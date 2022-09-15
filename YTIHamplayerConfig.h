@@ -6,6 +6,7 @@
 @property (nonatomic, assign, readwrite) BOOL useSbdlRenderView;
 @property (nonatomic, assign, readwrite) BOOL useResolutionForHfrHdFormatFilter;
 @property (nonatomic, assign, readwrite) BOOL disableHfrHdFormatFilter;
+@property (nonatomic, assign, readwrite) BOOL disableResolveOverlappingQualitiesByCodec;
 @property (nonatomic, strong, readwrite) YTIHamplayerStreamFilter *streamFilter;
 @property (nonatomic, strong, readwrite) YTIHamplayerABRConfig *videoAbrConfig;
 @end
