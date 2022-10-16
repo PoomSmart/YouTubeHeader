@@ -7,4 +7,5 @@
 - (YTSingleVideo *)singleVideo;
 - (YTSingleVideo *)videoData;
 - (NSArray <MLFormat *> *)selectableVideoFormats;
+- (void)playerRateDidChange:(float)rate;
 @end
