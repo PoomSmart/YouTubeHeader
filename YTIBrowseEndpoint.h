@@ -1,5 +1,5 @@
-#import <Foundation/Foundation.h>
+#import "GPBMessage.h"
 
-@interface YTIBrowseEndpoint : NSObject
+@interface YTIBrowseEndpoint : GPBMessage
 @property (nonatomic, copy, readwrite) NSString *browseId;
 @end

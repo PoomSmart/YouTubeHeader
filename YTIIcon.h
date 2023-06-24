@@ -1,5 +1,5 @@
-#import <Foundation/Foundation.h>
+#import "GPBMessage.h"
 
-@interface YTIIcon : NSObject
+@interface YTIIcon : GPBMessage
 @property (nonatomic, assign, readwrite) int iconType;
 @end

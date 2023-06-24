@@ -1,4 +1,4 @@
-#import <Foundation/Foundation.h>
+#import "GPBMessage.h"
 
-@interface YTIReelWatchEndpoint : NSObject
+@interface YTIReelWatchEndpoint : GPBMessage
 @end
