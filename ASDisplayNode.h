@@ -13,7 +13,7 @@
 @property (atomic, assign, readwrite, getter=isHidden) BOOL hidden;
 @property (atomic, assign, readwrite, getter=isLayerBacked) BOOL layerBacked;
 @property (atomic, assign, readwrite) BOOL automaticallyManagesSubnodes;
-- (id)controller;
+- (id)controller; // Usually ELMNodeController
 - (ASLayoutElementStyleYoga *)style;
 - (UIViewController *)closestViewController;
 - (UIView *)view;
