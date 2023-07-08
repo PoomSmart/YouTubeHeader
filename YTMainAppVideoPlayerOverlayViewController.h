@@ -4,4 +4,5 @@
 @interface YTMainAppVideoPlayerOverlayViewController : UIViewController
 - (YTMainAppVideoPlayerOverlayView *)videoPlayerOverlayView;
 - (YTPlayerViewController *)delegate;
+- (void)didPressVideoQuality:(id)arg;
 @end

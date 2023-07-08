@@ -6,6 +6,7 @@
 - (HAMMIMEType *)MIMEType;
 - (YTIFormatStream *)formatStream;
 - (NSURL *)URL;
+- (NSString *)qualityLabel;
 - (int)width;
 - (int)height;
 - (int)singleDimensionResolution;
