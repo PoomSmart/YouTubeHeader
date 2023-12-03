@@ -1,6 +1,7 @@
 #import "YTLightweightQTMButton.h"
 
 @interface YTQTMButton : YTLightweightQTMButton
++ (instancetype)barButtonWithImage:(id)arg1 accessibilityLabel:(id)arg2 accessibilityIdentifier:(id)arg3;
 + (instancetype)button;
 + (instancetype)closeButton;
 + (instancetype)iconButton;
@@ -13,5 +14,6 @@
 @property (nonatomic, assign, readwrite) BOOL sizeWithPaddingAndInsets;
 @property (nonatomic, copy, readwrite) NSString *accessibilityIdentifier;
 @property (nonatomic, copy, readwrite) NSString *accessibilityLabel;
+- (void)enableNewTouchFeedback;
 - (void)setTitleTypeKind:(NSInteger)titleTypeKind typeVariant:(NSInteger)typeVariant;
 @end
