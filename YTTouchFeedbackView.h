@@ -1,3 +1,3 @@
 @interface YTTouchFeedbackView : UIView
-@property (nonatomic) double customCornerRadius;
+@property (nonatomic) CGFloat customCornerRadius;
 @end
