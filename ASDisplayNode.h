@@ -2,7 +2,7 @@
 #import "ASLayoutElementStyleYoga.h"
 
 @interface ASDisplayNode : NSObject
-@property (atomic, copy, readwrite) NSArray <ASDisplayNode *> *yogaChildren;
+@property (atomic, copy, readwrite) NSArray *yogaChildren;
 @property (atomic, copy, readwrite) NSString *accessibilityIdentifier;
 @property (atomic, copy, readwrite) UIColor *backgroundColor;
 @property (atomic, weak, readonly) ASDisplayNode *yogaParent;
