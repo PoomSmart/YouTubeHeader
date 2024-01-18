@@ -2,8 +2,9 @@
 #import "MLInnerTubePlayerConfig.h"
 #import "MLPlayerViewProtocol.h"
 #import "MLPlayerStickySettings.h"
+#import "MLStreamSelectorDelegate.h"
 
-@interface MLAVPlayer : NSObject
+@interface MLAVPlayer : NSObject <MLStreamSelectorDelegate>
 @property (nonatomic, readwrite, assign) BOOL active;
 @property (nonatomic, readonly, assign) BOOL externalPlaybackActive;
 @property (nonatomic, readwrite, assign) float rate;
