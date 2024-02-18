@@ -7,6 +7,7 @@
 - (YTIFormatStream *)formatStream;
 - (NSURL *)URL;
 - (NSString *)qualityLabel;
+- (int)itag;
 - (int)width;
 - (int)height;
 - (int)singleDimensionResolution;
@@ -15,4 +16,5 @@
 - (BOOL)isVideo;
 - (BOOL)isText;
 - (NSInteger)compareByQuality:(MLFormat *)format;
+- (NSInteger)bitrate;
 @end
