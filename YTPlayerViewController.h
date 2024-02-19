@@ -2,6 +2,7 @@
 #import "GIMMe.h"
 #import "YTPlaybackController.h"
 #import "YTSingleVideoController.h"
+#import "YTPlayerView.h"
 
 @interface YTPlayerViewController : UIViewController <YTPlaybackController>
 @property (nonatomic, readonly, assign) BOOL isPlayingAd;
@@ -18,4 +19,7 @@
 - (void)setPlayerViewLayout:(int)layout;
 - (void)scrubToTime:(CGFloat)time; // Deprecated
 - (void)seekToTime:(CGFloat)time;
+- (id)activeVideoPlayerOverlay; // YTMainAppVideoPlayerOverlayViewController || YTInlineMutedPlaybackPlayerOverlayViewController
+- (YTPlayerView *)playerView;
+- (BOOL)isCurrentVideoVertical;
 @end
