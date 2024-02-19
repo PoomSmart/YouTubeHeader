@@ -5,4 +5,5 @@
 - (YTMainAppVideoPlayerOverlayView *)videoPlayerOverlayView;
 - (YTPlayerViewController *)delegate;
 - (void)didPressVideoQuality:(id)arg;
+- (BOOL)isFullscreen;
 @end
