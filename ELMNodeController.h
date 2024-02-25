@@ -4,4 +4,5 @@
 @interface ELMNodeController : ASNodeController
 - (const void *)materializationContext;
 - (ELMComponent *)owningComponent;
+- (NSArray <ELMComponent *> *)children;
 @end

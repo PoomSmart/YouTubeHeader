@@ -1,4 +1,5 @@
-#import <Foundation/Foundation.h>
+#import "ASCellNode.h"
 
 @interface ASCollectionElement : NSObject
+- (ASCellNode *)node;
 @end
