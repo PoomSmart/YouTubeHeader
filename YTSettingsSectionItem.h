@@ -6,7 +6,9 @@
 @property (nonatomic, assign, readwrite) BOOL switchVisible;
 @property (nonatomic, assign, readwrite) BOOL on;
 @property (nonatomic, assign, readwrite) BOOL enabled;
+@property (nonatomic, assign, readwrite, getter=isInkEnabled) BOOL inkEnabled;
 @property (nonatomic, assign, readwrite) int settingItemId;
+@property (nonatomic, assign, readwrite) int indicatorIconType;
 @property (nonatomic, copy, readwrite) BOOL (^selectBlock)(YTSettingsCell *, NSUInteger);
 @property (nonatomic, copy, readwrite) BOOL (^switchBlock)(YTSettingsCell *, BOOL);
 + (instancetype)itemWithTitle:(NSString *)title accessibilityIdentifier:(NSString *)accessibilityIdentifier detailTextBlock:(NSString *(^)(void))detailTextBlock selectBlock:(BOOL (^)(YTSettingsCell *, NSUInteger))selectBlock;
