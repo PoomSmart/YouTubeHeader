@@ -1,5 +1,6 @@
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "GOOHUDMessage.h"
 
-@interface YTHUDMessage : NSObject
-+ (instancetype)messageWithText:(NSString *)text;
+@interface YTHUDMessage : GOOHUDMessage
+@property (nonatomic, readwrite, strong) UIView *icon;
 @end
