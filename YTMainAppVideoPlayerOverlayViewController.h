@@ -7,4 +7,5 @@
 - (YTPlayerViewController *)delegate;
 - (void)didPressVideoQuality:(id)arg;
 - (BOOL)isFullscreen;
+- (CGFloat)totalTime;
 @end

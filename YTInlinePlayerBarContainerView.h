@@ -15,4 +15,6 @@
 - (YTQTMButton *)exitFullscreenButton;
 - (YTQTMButton *)enterFullscreenButton;
 - (void)setChapters:(NSArray *)chapters;
+- (void)didPressScrubber:(id)arg1;
+- (CGFloat)scrubRangeForScrubX:(CGFloat)arg1;
 @end
