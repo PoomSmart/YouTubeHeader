@@ -10,5 +10,5 @@
 + (UIWindow *)mainWindow; // YTMainWindow
 + (NSBundle *)bundleForClass:(Class)cls;
 + (NSBundle *)resourceBundleForModuleName:(NSString *)module appBundle:(NSBundle *)appBundle;
-+ (NSString *)hardwareModel;
++ (NSString *)hardwareModel; // Removed in YouTube 19.13.1
 @end
