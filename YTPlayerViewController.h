@@ -1,10 +1,11 @@
 #import <UIKit/UIKit.h>
 #import "GIMMe.h"
 #import "YTPlaybackController.h"
-#import "YTSingleVideoController.h"
 #import "YTPlayerView.h"
+#import "YTSingleVideoController.h"
+#import "YTVideoPlayerOverlayDelegate.h"
 
-@interface YTPlayerViewController : UIViewController <YTPlaybackController>
+@interface YTPlayerViewController : UIViewController <YTPlaybackController, YTVideoPlayerOverlayDelegate>
 @property (nonatomic, readonly, assign) BOOL isPlayingAd;
 @property (nonatomic, strong, readwrite) NSString *channelID;
 - (GIMMe *)gimme; // Deprecated
@@ -15,7 +16,6 @@
 - (int)playerViewLayout;
 - (BOOL)isMDXActive;
 - (void)didPressToggleFullscreen;
-- (void)setMuted:(BOOL)muted;
 - (void)setPlayerViewLayout:(int)layout;
 - (void)scrubToTime:(CGFloat)time; // Deprecated
 - (void)seekToTime:(CGFloat)time;
