@@ -1,8 +1,9 @@
+#import "YTAdjustableAccessibilityProtocol.h"
 #import "YTMainAppVideoPlayerOverlayView.h"
 #import "YTResponder.h"
 #import "YTVideoPlayerOverlayDelegate.h"
 
-@interface YTMainAppVideoPlayerOverlayViewController : UIViewController <YTResponder>
+@interface YTMainAppVideoPlayerOverlayViewController : UIViewController <YTResponder, YTAdjustableAccessibilityProtocol>
 - (YTMainAppVideoPlayerOverlayView *)videoPlayerOverlayView;
 - (id <YTVideoPlayerOverlayDelegate>)delegate;
 - (void)didPressVideoQuality:(id)arg;
