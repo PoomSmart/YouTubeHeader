@@ -1,6 +1,7 @@
 #import <UIKit/UIKit.h>
 #import "GIMMe.h"
 #import "YTPlaybackController.h"
+#import "YTPlayerOverlayManager.h"
 #import "YTPlayerView.h"
 #import "YTSingleVideoController.h"
 #import "YTVideoPlayerOverlayDelegate.h"
@@ -8,6 +9,7 @@
 @interface YTPlayerViewController : UIViewController <YTPlaybackController, YTVideoPlayerOverlayDelegate>
 @property (nonatomic, readonly, assign) BOOL isPlayingAd;
 @property (nonatomic, strong, readwrite) NSString *channelID;
+@property (nonatomic, strong, readwrite) YTPlayerOverlayManager *overlayManager;
 - (GIMMe *)gimme; // Deprecated
 - (NSString *)currentVideoID;
 - (YTSingleVideoController *)activeVideo;
