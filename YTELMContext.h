@@ -1,5 +1,6 @@
-#import <Foundation/Foundation.h>
+#import "YTResponder.h"
 
 @interface YTELMContext : NSObject
-- (id)parentResponder;
+- (instancetype)initWithResponder:(id <YTResponder>)responder;
+- (id <YTResponder>)parentResponder;
 @end

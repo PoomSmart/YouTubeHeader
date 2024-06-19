@@ -4,7 +4,7 @@
 @interface YTCommonUtils : NSObject
 + (BOOL)isIPhoneWithNotch;
 + (BOOL)isIPad;
-+ (BOOL)isSmallDevice;
++ (BOOL)isSmallDevice; // Deprecated
 + (BOOL)isAppRunningInFullScreen;
 + (unsigned int)uniformRandomWithUpperBound:(unsigned int)upperBound;
 + (UIWindow *)mainWindow; // YTMainWindow
