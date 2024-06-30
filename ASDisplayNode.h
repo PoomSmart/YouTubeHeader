@@ -5,7 +5,7 @@
 @property (atomic, copy, readwrite) NSArray *yogaChildren;
 @property (atomic, copy, readwrite) NSString *accessibilityIdentifier;
 @property (atomic, copy, readwrite) UIColor *backgroundColor;
-@property (atomic, weak, readonly) ASDisplayNode *yogaParent;
+@property (atomic, weak) ASDisplayNode *yogaParent;
 @property (atomic, strong, readwrite) id contents;
 @property (atomic, assign, readwrite) CGFloat alpha;
 @property (atomic, assign, readwrite) CGRect frame;
@@ -20,4 +20,5 @@
 - (UIViewController *)closestViewController;
 - (UIView *)view;
 - (BOOL)isNodeLoaded;
+- (void)setNeedsLayout;
 @end
