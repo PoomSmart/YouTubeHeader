@@ -21,4 +21,6 @@
 - (UIView *)view;
 - (BOOL)isNodeLoaded;
 - (void)setNeedsLayout;
+- (void)addSubnode:(id)subnode;
+- (void)addYogaChild:(id)child;
 @end
