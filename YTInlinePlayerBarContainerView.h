@@ -14,6 +14,7 @@
 @property (nonatomic, assign, readwrite) BOOL showOnlyFullscreenButton;
 @property (nonatomic, assign, readwrite) int layout;
 @property (nonatomic, weak, readwrite) id delegate;
+@property (nonatomic, assign, readwrite) BOOL shouldDisplayTimeRemaining;
 - (YTQTMButton *)exitFullscreenButton;
 - (YTQTMButton *)enterFullscreenButton;
 - (void)setChapters:(NSArray *)chapters;
