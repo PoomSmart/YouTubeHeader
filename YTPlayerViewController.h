@@ -12,6 +12,7 @@
 @property (nonatomic, strong, readwrite) YTPlayerOverlayManager *overlayManager;
 - (GIMMe *)gimme; // Deprecated
 - (NSString *)currentVideoID;
+- (NSString *)contentVideoID;
 - (YTSingleVideoController *)activeVideo;
 - (CGFloat)currentVideoMediaTime;
 - (CGFloat)currentVideoTotalMediaTime;
