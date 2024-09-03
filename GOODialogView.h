@@ -3,4 +3,5 @@
 
 @interface GOODialogView : GOOMultiLineView
 - (NSMutableArray <GOODialogViewAction *> *)actions;
+- (UILabel *)titleLabel;
 @end
