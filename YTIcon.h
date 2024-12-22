@@ -30,6 +30,7 @@ typedef enum {
     YT_CLOSE_LIGHT = 386,
     YT_WARNING = 388,
     YT_GROUP = 418,
+    YT_PICTURE_IN_PICTURE = 461,
     YT_TV = 473,
     YT_EXPERIMENT = 495,
     YT_GOOGLE = 498,
@@ -44,7 +45,7 @@ typedef enum {
     YT_PREMIUM = 688,
     YT_SCREEN_ROTATION = 701,
     YT_PREMIUM_STANDALONE = 741,
-    YT_PIP = 801, // a.k.a YT_WALLPAPER
+    YT_WALLPAPER = 801,
     YT_PHOTO_CAMERA_OUTLINE = 851,
     YT_GIFT = 864,
     YT_CAST_OUTLINE = 886,
