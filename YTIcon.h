@@ -16,6 +16,8 @@ typedef enum {
     YT_STAR = 214,
     YT_CLOSE = 215,
     YT_CHECK = 216,
+    YT_CHEVRON_RIGHT = 221,
+    YT_CHEVRON_LEFT = 222,
     YT_UP_ARROW = 233,
     YT_OPEN_IN_NEW = 240,
     YT_COPY = 250,
