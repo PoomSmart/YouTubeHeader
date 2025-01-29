@@ -2,6 +2,7 @@
 #import "MLAVAssetPlayerDelegate.h"
 
 @interface MLAVAssetPlayer : NSObject
-- (AVPlayerItem *)playerItem;
+@property (nonatomic, assign, readwrite) float rate;
 @property (nonatomic, weak, readwrite) id <MLAVAssetPlayerDelegate> delegate;
+- (AVPlayerItem *)playerItem;
 @end
