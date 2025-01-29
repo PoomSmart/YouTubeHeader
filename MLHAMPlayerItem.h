@@ -4,6 +4,7 @@
 #import "MLVideoFormatConstraint.h"
 
 @interface MLHAMPlayerItem : NSObject
+@property (nonatomic, assign, readwrite) BOOL peggedToLive;
 @property (nonatomic, readonly, strong) MLInnerTubePlayerConfig *config;
 @property (nonatomic, strong, readwrite) id <MLVideoFormatConstraint> videoFormatConstraint;
 - (void)ABRPolicy:(MLABRPolicy *)policy selectableFormatsDidChange:(NSArray <MLFormat *> *)formats;
