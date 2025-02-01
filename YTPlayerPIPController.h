@@ -1,9 +1,10 @@
 #import "GIMMe.h"
 #import "YTSingleVideoController.h"
+#import "YTSystemNotificationsObserver.h"
 
-@interface YTPlayerPIPController : NSObject
-@property (nonatomic, readonly, assign, getter=isPictureInPictureActive) BOOL pictureInPuctureActive;
-@property (nonatomic, readonly, assign, getter=isPictureInPicturePossible) BOOL pictureInPucturePossible;
+@interface YTPlayerPIPController : NSObject <YTSystemNotificationsObserver>
+@property (nonatomic, readonly, assign, getter=isPictureInPictureActive) BOOL pictureInPictureActive;
+@property (nonatomic, readonly, assign, getter=isPictureInPicturePossible) BOOL pictureInPicturePossible;
 @property (retain, nonatomic) YTSingleVideoController *activeSingleVideo;
 - (instancetype)initWithPlayerView:(id)playerView delegate:(id)delegate; // Deprecated, use initWithDelegate:
 - (instancetype)initWithDelegate:(id)delegate;
