@@ -6,4 +6,5 @@
 + (UIColor *)black1;
 + (UIColor *)black2;
 + (UIColor *)black3;
++ (UIColor *)youTubeRed;
 @end
