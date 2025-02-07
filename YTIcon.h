@@ -20,6 +20,7 @@ typedef enum {
     YT_CHEVRON_LEFT = 222,
     YT_UP_ARROW = 233,
     YT_OPEN_IN_NEW = 240,
+    YT_PLAY_CIRCLE = 248,
     YT_COPY = 250,
     YT_QUEUE_PLAY_NEXT = 251,
     YT_EMOJI = 279,

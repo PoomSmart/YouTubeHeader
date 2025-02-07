@@ -1,5 +1,5 @@
 #import "YTIAccessibilityData.h"
 
-@interface YTIFormattedStringSupportedAccessibilityDatas : NSObject
+@interface YTIFormattedStringSupportedAccessibilityDatas : GPBMessage
 @property (nonatomic, strong, readwrite) YTIAccessibilityData *accessibilityData;
 @end

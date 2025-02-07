@@ -1,5 +1,5 @@
-#import <Foundation/Foundation.h>
+#import "GPBMessage.h"
 
-@interface YTIAccessibilityData : NSObject
+@interface YTIAccessibilityData : GPBMessage
 @property (nonatomic, copy, readwrite) NSString *label;
 @end

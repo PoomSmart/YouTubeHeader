@@ -1,9 +1,11 @@
+#import "YTIFormattedString.h"
 #import "YTIIcon.h"
 #import "YTSettingsCell.h"
 
 @interface YTSettingsSectionItem : NSObject
 @property (nonatomic, copy, readwrite) NSString *title;
 @property (nonatomic, strong, readwrite) YTIIcon *settingIcon;
+@property (nonatomic, strong, readwrite) YTIFormattedString *formattedSettingSummary;
 @property (nonatomic, assign, readwrite) BOOL hasSwitch;
 @property (nonatomic, assign, readwrite) BOOL switchVisible;
 @property (nonatomic, assign, readwrite) BOOL on;
