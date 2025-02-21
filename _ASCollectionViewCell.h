@@ -4,5 +4,5 @@
 
 @interface _ASCollectionViewCell : UICollectionViewCell
 @property (nonatomic, strong, readwrite) ASCollectionElement *element;
-- (ASCellNode *)node; // Usually ELMCellNode
+- (ASCellNode *)node; // Usually returns ELMCellNode
 @end

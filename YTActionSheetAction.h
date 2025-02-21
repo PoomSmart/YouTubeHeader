@@ -1,4 +1,4 @@
-#import <UIKit/UIKit.h>
+#import <UIKit/UIImage.h>
 
 @interface YTActionSheetAction : NSObject
 @property (nonatomic, copy, readwrite) id handler;
