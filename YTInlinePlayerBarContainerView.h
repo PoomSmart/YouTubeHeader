@@ -17,6 +17,7 @@
 @property (nonatomic, assign, readwrite) BOOL shouldDisplayTimeRemaining;
 - (YTQTMButton *)exitFullscreenButton;
 - (YTQTMButton *)enterFullscreenButton;
+- (UIView *)peekableView;
 - (void)setChapters:(NSArray *)chapters;
 - (void)didPressScrubber:(id)arg1;
 - (CGFloat)scrubRangeForScrubX:(CGFloat)arg1;
