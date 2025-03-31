@@ -11,6 +11,7 @@
 @property (nonatomic, readwrite, strong) YTINavigationEndpointInteractionLoggingExtension *interactionLoggingExtension;
 + (instancetype)message;
 + (instancetype)watchNavigationEndpointWithVideoID:(NSString *)videoID;
++ (instancetype)watchNavigationEndpointWithPlaylistID:(NSString *)playlistID videoID:(NSString *)videoID index:(NSUInteger)index watchNextToken:(id)watchNextToken;
 - (YTICommandExecutorCommand *)yt_commandExecutorCommand;
 - (YTIShowEngagementPanelEndpoint *)yt_showEngagementPanelEndpoint;
 @end

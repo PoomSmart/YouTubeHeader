@@ -29,6 +29,7 @@ typedef enum {
     YT_DISLIK_SELECTED = 302,
     YT_MONEY_FILL = 321,
     YT_UPLOAD = 329,
+    YT_PLAYLIST_PLAY = 333,
     YT_IMAGE = 367,
     YT_DELETE_LIGHT = 382,
     YT_CLOSE_LIGHT = 386,
