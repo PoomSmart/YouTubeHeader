@@ -10,6 +10,7 @@
 @property (nonatomic, readwrite, strong) YTIBrowseEndpoint *browseEndpoint;
 @property (nonatomic, readwrite, strong) YTINavigationEndpointInteractionLoggingExtension *interactionLoggingExtension;
 + (instancetype)message;
++ (instancetype)watchNavigationEndpointWithVideoID:(NSString *)videoID;
 - (YTICommandExecutorCommand *)yt_commandExecutorCommand;
 - (YTIShowEngagementPanelEndpoint *)yt_showEngagementPanelEndpoint;
 @end
