@@ -1,4 +1,4 @@
-#import <UIKit/UIKit.h>
+#import "YTInnerTubeCollectionViewController.h"
 
-@interface YTWatchNextResultsViewController : UIViewController
+@interface YTWatchNextResultsViewController : YTInnerTubeCollectionViewController
 @end
