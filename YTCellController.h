@@ -1,6 +1,6 @@
-#import <Foundation/Foundation.h>
 #import "YTCollectionViewCellProtocol.h"
+#import "YTResponder.h"
 
-@interface YTCellController : NSObject
+@interface YTCellController : NSObject <YTResponder>
 - (id <YTCollectionViewCellProtocol> *)cell;
 @end

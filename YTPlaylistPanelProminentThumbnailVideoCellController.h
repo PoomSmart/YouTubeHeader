@@ -1,5 +1,5 @@
-#import <Foundation/Foundation.h>
+#import "YTOfflineCapableVideoCellController.h"
 
-@interface YTPlaylistPanelProminentThumbnailVideoCellController : NSObject
+@interface YTPlaylistPanelProminentThumbnailVideoCellController : YTOfflineCapableVideoCellController
 - (void)didPressSwipeToRevealButton;
 @end
