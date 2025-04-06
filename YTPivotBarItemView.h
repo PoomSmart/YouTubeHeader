@@ -1,5 +1,7 @@
-#import <UIKit/UIKit.h>
+#import "YTIPivotBarItemRenderer.h"
+#import "YTQTMButton.h"
 
 @interface YTPivotBarItemView : UIView
-@property (strong, nonatomic) UIButton *navigationButton;
+@property (nonatomic, strong, readwrite) YTIPivotBarItemRenderer *renderer;
+@property (nonatomic, strong, readwrite) YTQTMButton *navigationButton;
 @end
