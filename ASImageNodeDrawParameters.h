@@ -3,4 +3,5 @@
 
 @interface ASImageNodeDrawParameters : NSObject
 - (CGRect)drawRect;
+- (CGFloat)renderScale;
 @end

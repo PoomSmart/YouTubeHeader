@@ -1,6 +1,8 @@
 #import "GPBExtensionDescriptor.h"
+#import "GPBUnknownFieldSet.h"
 
 @interface GPBMessage : NSObject
+@property (nonatomic, copy, readwrite) GPBUnknownFieldSet *unknownFields;
 + (instancetype)parseFromData:(NSData *)data;
 + (instancetype)parseFromData:(NSData *)data error:(NSError **)error;
 + (instancetype)deserializeFromString:(NSString *)str;
