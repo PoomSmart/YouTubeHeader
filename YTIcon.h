@@ -7,6 +7,7 @@ typedef enum {
     YT_SETTINGS = 44,
     YT_SHARE = 48,
     YT_DISLIKE = 51,
+    YT_UNSUBSCRIBE = 54,
     YT_PLAY_ALL = 84,
     YT_VERY_HAPPY = 89,
     YT_HAPPY = 90,
