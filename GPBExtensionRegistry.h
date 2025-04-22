@@ -1,5 +1,6 @@
-#import <Foundation/Foundation.h>
+#import "GPBExtensionDescriptor.h"
 
 @interface GPBExtensionRegistry : NSObject
-- (void)addExtension:(id)extension;
+- (void)addExtension:(GPBExtensionDescriptor *)extension;
+- (void)addExtensions:(GPBExtensionRegistry *)registry;
 @end
