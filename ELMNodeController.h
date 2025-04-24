@@ -6,5 +6,6 @@
 @property (nonatomic, weak, readwrite) id <ELMController> parent;
 - (const void *)materializationContext;
 - (ELMComponent *)owningComponent;
+- (NSString *)key;
 - (NSArray <ELMComponent *> *)children;
 @end
