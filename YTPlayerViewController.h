@@ -4,9 +4,10 @@
 #import "YTPlayerOverlayManager.h"
 #import "YTPlayerView.h"
 #import "YTSingleVideoController.h"
+#import "YTVarispeedSwitchController.h"
 #import "YTVideoPlayerOverlayDelegate.h"
 
-@interface YTPlayerViewController : UIViewController <YTPlaybackController, YTVideoPlayerOverlayDelegate>
+@interface YTPlayerViewController : UIViewController <YTPlaybackController, YTVideoPlayerOverlayDelegate, YTVarispeedSwitchControllerDelegate>
 @property (nonatomic, readonly, assign) BOOL isPlayingAd;
 @property (nonatomic, strong, readwrite) NSString *channelID;
 @property (nonatomic, strong, readwrite) YTPlayerOverlayManager *overlayManager;
@@ -14,6 +15,7 @@
 - (NSString *)currentVideoID;
 - (NSString *)contentVideoID;
 - (YTSingleVideoController *)activeVideo;
+- (YTVarispeedSwitchController *)varispeedController;
 - (CGFloat)currentVideoMediaTime;
 - (CGFloat)currentVideoTotalMediaTime;
 - (int)playerViewLayout;
