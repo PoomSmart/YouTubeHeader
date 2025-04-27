@@ -6,6 +6,7 @@
 @property (nonatomic, copy, readwrite) NSString *subtitle;
 @property (nonatomic, readonly, strong) UILabel *subtitleLabel;
 @property (nonatomic, readwrite, copy) UIImage *icon;
+@property (nonatomic, strong, readwrite) UIView *customContentView;
 + (instancetype)dialog;
 + (instancetype)infoDialog;
 + (instancetype)confirmationDialog;

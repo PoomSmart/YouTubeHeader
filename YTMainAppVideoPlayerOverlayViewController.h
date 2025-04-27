@@ -10,6 +10,8 @@
 - (id <YTVideoPlayerOverlayDelegate>)delegate;
 - (void)didPressVarispeed:(id)arg;
 - (void)didPressVideoQuality:(id)arg;
+- (void)setPlaybackRate:(CGFloat)rate;
 - (BOOL)isFullscreen;
 - (CGFloat)totalTime;
+- (CGFloat)currentPlaybackRate;
 @end

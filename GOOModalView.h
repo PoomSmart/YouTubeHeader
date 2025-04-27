@@ -6,6 +6,7 @@
 @property (nonatomic, readwrite, assign) BOOL shouldDismissOnApplicationBackground;
 - (instancetype)initWithTarget:(id)target;
 - (void)addTitle:(NSString *)title withAction:(void (^)(void))action;
+- (void)addTitle:(NSString *)title withCancelAction:(void (^)(void))action;
 - (void)addTitle:(NSString *)title withDestructiveAction:(void (^)(void))action;
 - (void)addTitle:(NSString *)title withSelector:(SEL)selector;
 - (void)addTitle:(NSString *)title withCancelSelector:(SEL)cancelSelector;
