@@ -6,6 +6,7 @@
 + (instancetype)parseFromData:(NSData *)data;
 + (instancetype)parseFromData:(NSData *)data error:(NSError **)error;
 + (instancetype)deserializeFromString:(NSString *)str;
++ (GPBExtensionDescriptor *)descriptor;
 - (instancetype)messageForFieldNumber:(NSUInteger)fieldNumber;
 - (instancetype)messageForFieldNumber:(NSUInteger)fieldNumber messageClass:(Class)messageClass;
 - (id)firstSubmessage;
