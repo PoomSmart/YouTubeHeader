@@ -4,5 +4,6 @@
 
 @interface YTIIcon : GPBMessage
 @property (nonatomic, assign, readwrite) YTIcon iconType;
+- (UIImage *)iconImageWithColor:(UIColor *)color;
 - (UIImage *)iconImageWithSelected:(BOOL)selected;
 @end
