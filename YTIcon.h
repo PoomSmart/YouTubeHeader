@@ -3,6 +3,7 @@
 typedef enum {
     YT_UNKNOWN = 0,
     YT_MY_CHANNEL = 1,
+    YT_PURCHASES = 4,
     YT_SOCIAL = 11,
     YT_SETTINGS = 44,
     YT_SHARE = 48,
