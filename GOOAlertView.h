@@ -7,6 +7,7 @@
 @property (nonatomic, readonly, strong) UILabel *subtitleLabel;
 @property (nonatomic, readwrite, copy) UIImage *icon;
 @property (nonatomic, strong, readwrite) UIView *customContentView;
+@property (nonatomic, assign, readwrite) UIEdgeInsets customContentViewInsets;
 + (instancetype)dialog;
 + (instancetype)infoDialog;
 + (instancetype)confirmationDialog;

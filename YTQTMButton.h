@@ -8,6 +8,10 @@
 + (instancetype)iconButton;
 + (instancetype)textButton;
 @property (nonatomic, assign, readwrite) BOOL sizeWithPaddingAndInsets;
+@property (nonatomic, strong, readwrite) UIColor *customTintColor;
 - (UILabel *)titleLabel;
 - (void)enableNewTouchFeedback;
+- (void)setTitleTypeKind:(NSInteger)typeKind;
+- (void)setTitleTypeKind:(NSInteger)typeKind typeVariant:(NSInteger)typeVariant;
+- (void)setForegroundColor:(UIColor *)color backgroundColor:(UIColor *)backgroundColor;
 @end
