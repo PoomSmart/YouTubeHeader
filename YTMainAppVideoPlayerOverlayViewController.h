@@ -8,6 +8,7 @@
 @property (nonatomic, strong, readwrite) YTPlayerBarController *playerBarController;
 @property (nonatomic, weak, readwrite) id <YTVideoPlayerOverlayDelegate> delegate;
 - (YTMainAppVideoPlayerOverlayView *)videoPlayerOverlayView;
+- (void)didPressAudioTrackSwitch:(id)arg;
 - (void)didPressVarispeed:(id)arg;
 - (void)didPressVideoQuality:(id)arg;
 - (void)setPlaybackRate:(CGFloat)rate;
