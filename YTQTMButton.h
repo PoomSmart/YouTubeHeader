@@ -2,6 +2,7 @@
 #import "YTLightweightQTMButton.h"
 
 @interface YTQTMButton : YTLightweightQTMButton <YTCommonButton>
++ (instancetype)buttonWithImage:(UIImage *)image accessibilityLabel:(NSString *)accessibilityLabel accessibilityIdentifier:(NSString *)accessibilityIdentifier;
 + (instancetype)barButtonWithImage:(UIImage *)image accessibilityLabel:(NSString *)accessibilityLabel accessibilityIdentifier:(NSString *)accessibilityIdentifier;
 + (instancetype)button;
 + (instancetype)closeButton;
