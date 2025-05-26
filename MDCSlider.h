@@ -5,6 +5,7 @@
 
 @interface MDCSlider : UIControl
 @property (nonatomic, assign, getter=isStatefulAPIEnabled) BOOL statefulAPIEnabled;
+@property (nonatomic, assign, getter=isThumbHollowAtStart) BOOL thumbHollowAtStart;
 @property (nonatomic, weak) id <MDCSliderDelegate> delegate;
 @property (nonatomic, assign) CGFloat thumbRadius;
 @property (nonatomic, assign) CGFloat value;

@@ -18,4 +18,6 @@
 + (instancetype)confirmationDialogWithSelector:(SEL)selector actionTitle:(NSString *)actionTitle showsCancelButton:(BOOL)showsCancelButton;
 - (void)addCancelButton:(SEL)selector;
 - (void)addCancelButtonWithAction:(void (^)(void))action;
+- (void)dismiss;
+- (void)dismissWithCancelAction:(BOOL)cancelAction;
 @end
