@@ -1,10 +1,12 @@
-#import <CoreGraphics/CoreGraphics.h>
+#import <CoreGraphics/CGGeometry.h>
+#import "HAMFormat.h"
 #import "HAMMIMEType.h"
 #import "YTIAudioTrack.h"
 #import "YTIFormatStream.h"
 
-@interface MLFormat : NSObject <NSCopying>
+@interface MLFormat : NSObject <NSCopying, HAMFormat>
 @property (nonatomic, readonly, strong) YTIAudioTrack *audioTrack;
+- (instancetype)initWithFormatStream:(YTIFormatStream *)formatStream;
 - (HAMMIMEType *)MIMEType;
 - (YTIFormatStream *)formatStream;
 - (NSURL *)URL;
