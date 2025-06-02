@@ -1,4 +1,4 @@
-#import <Foundation/Foundation.h>
+#import <Foundation/NSObject.h>
 
 @interface YTWatchPlaybackController : NSObject
 @end

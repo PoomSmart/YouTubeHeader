@@ -20,5 +20,6 @@
 - (UIView *)peekableView;
 - (void)setChapters:(NSArray *)chapters;
 - (void)didPressScrubber:(id)arg1;
+- (void)updateIconVisibilityAndLayout;
 - (CGFloat)scrubRangeForScrubX:(CGFloat)arg1;
 @end
