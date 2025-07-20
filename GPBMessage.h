@@ -9,6 +9,7 @@
 + (GPBExtensionDescriptor *)descriptor;
 - (instancetype)messageForFieldNumber:(NSUInteger)fieldNumber;
 - (instancetype)messageForFieldNumber:(NSUInteger)fieldNumber messageClass:(Class)messageClass;
+- (NSData *)data;
 - (id)firstSubmessage;
 - (id)getExtension:(GPBExtensionDescriptor *)extension;
 - (BOOL)hasExtension:(GPBExtensionDescriptor *)extension;
