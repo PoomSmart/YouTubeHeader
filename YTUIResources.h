@@ -8,4 +8,5 @@
 + (UIImage *)iconCheckTemplateImage;
 + (UIImage *)tabIconAccountImageWithSelected:(BOOL)selected;
 + (UIImage *)xCircleOutline;
++ (BOOL)delhiIconsEnabled;
 @end
