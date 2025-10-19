@@ -15,6 +15,7 @@
 - (int)width;
 - (int)height;
 - (int)singleDimensionResolution;
+- (int)qualityOrdinal;
 - (CGFloat)FPS;
 - (BOOL)isAudio;
 - (BOOL)isVideo;
