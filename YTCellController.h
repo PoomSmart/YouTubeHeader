@@ -3,4 +3,5 @@
 
 @interface YTCellController : NSObject <YTResponder>
 - (id <YTCollectionViewCellProtocol> *)cell;
+- (id)entry;
 @end

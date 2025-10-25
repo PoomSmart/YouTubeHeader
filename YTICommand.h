@@ -3,6 +3,7 @@
 #import "YTINavigationEndpointInteractionLoggingExtension.h"
 #import "YTIReelWatchEndpoint.h"
 #import "YTIShowEngagementPanelEndpoint.h"
+#import "YTIUrlEndpoint.h"
 #import "YTIWatchEndpoint.h"
 
 @interface YTICommand : GPBMessage
@@ -10,6 +11,7 @@
 @property (nonatomic, readwrite, strong) YTIReelWatchEndpoint *reelWatchEndpoint;
 @property (nonatomic, readwrite, strong) YTIWatchEndpoint *watchEndpoint;
 @property (nonatomic, readwrite, strong) YTIBrowseEndpoint *browseEndpoint;
+@property (nonatomic, readwrite, strong) YTIUrlEndpoint *URLEndpoint;
 @property (nonatomic, readwrite, strong) YTINavigationEndpointInteractionLoggingExtension *interactionLoggingExtension;
 + (instancetype)message;
 + (instancetype)signInNavigationEndpoint;
