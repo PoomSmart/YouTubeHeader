@@ -1,6 +1,7 @@
 #import <UIKit/UIColor.h>
 
 @interface YTColor : UIColor
+// Not available in YT v16.?
 + (instancetype)colorWithRGB:(unsigned int)rgb floatAlpha:(CGFloat)alpha;
 + (instancetype)white1;
 + (instancetype)white3;
