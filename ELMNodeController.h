@@ -7,5 +7,5 @@
 - (const void *)materializationContext;
 - (ELMComponent *)owningComponent;
 - (NSString *)key;
-- (NSArray <ELMComponent *> *)children;
+- (NSArray <id <ELMController>> *)children;
 @end
