@@ -1,4 +1,5 @@
 #import "YTCommonButton.h"
+#import "YTIButtonRenderer.h"
 #import "YTLightweightQTMButton.h"
 
 @interface YTQTMButton : YTLightweightQTMButton <YTCommonButton>
@@ -14,5 +15,6 @@
 - (void)enableNewTouchFeedback;
 - (void)setTitleTypeKind:(NSInteger)typeKind;
 - (void)setTitleTypeKind:(NSInteger)typeKind typeVariant:(NSInteger)typeVariant;
+- (void)setInnerTubeButtonStyle:(YTIButtonRenderer_Style)style;
 - (void)setForegroundColor:(UIColor *)color backgroundColor:(UIColor *)backgroundColor;
 @end
