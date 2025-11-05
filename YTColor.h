@@ -8,6 +8,7 @@
 + (instancetype)black1;
 + (instancetype)black2;
 + (instancetype)black3;
++ (instancetype)blackPureAlpha0;
 + (instancetype)grey3Alpha70;
 + (instancetype)grey4Alpha60;
 + (instancetype)youTubeRed;
