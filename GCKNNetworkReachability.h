@@ -1,4 +1,4 @@
-#import <Foundation/Foundation.h>
+#import <Foundation/NSObject.h>
 
 @interface GCKNNetworkReachability : NSObject
 + (instancetype)sharedInstance;

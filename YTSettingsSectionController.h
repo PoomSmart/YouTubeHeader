@@ -1,4 +1,4 @@
-#import <Foundation/Foundation.h>
+#import <Foundation/NSObject.h>
 #import "YTSettingsSectionItem.h"
 
 @interface YTSettingsSectionController : NSObject

@@ -1,4 +1,4 @@
-#import <Foundation/Foundation.h>
+#import <Foundation/NSObject.h>
 
 @interface YTIIosMediaHotConfig : NSObject
 @property (nonatomic, assign, readwrite) BOOL enablePictureInPicture;

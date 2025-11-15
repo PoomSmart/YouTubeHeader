@@ -1,4 +1,4 @@
-#import <Foundation/Foundation.h>
+#import <Foundation/NSObject.h>
 
 @interface MLPlayerStickySettings : NSObject
 @property (nonatomic, assign, readwrite) float rate;

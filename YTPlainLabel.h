@@ -1,4 +1,4 @@
-#import <Foundation/Foundation.h>
+#import <Foundation/NSObject.h>
 
 @protocol YTPlainLabel <NSObject>
 @property (nonatomic, readwrite, assign) NSInteger numberOfLines;

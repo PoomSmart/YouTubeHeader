@@ -1,4 +1,4 @@
-#import <Foundation/Foundation.h>
+#import <Foundation/NSObject.h>
 
 @interface HAMMIMEType : NSObject
 - (unsigned int)audioCodec;

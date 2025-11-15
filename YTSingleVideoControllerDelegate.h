@@ -1,4 +1,4 @@
-#import <Foundation/Foundation.h>
+#import <Foundation/NSObject.h>
 
 @protocol YTSingleVideoControllerDelegate <NSObject>
 - (void)singleVideoController:(id)controller requiresReloadWithContext:(id)context;

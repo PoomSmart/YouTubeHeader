@@ -1,4 +1,4 @@
-#import <Foundation/Foundation.h>
+#import <Foundation/NSObject.h>
 
 @interface YTVideoQualitySwitchOriginalController : NSObject
 - (instancetype)initWithParentResponder:(id)responder;

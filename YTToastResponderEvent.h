@@ -1,4 +1,4 @@
-#import <Foundation/Foundation.h>
+#import <Foundation/NSObject.h>
 
 @interface YTToastResponderEvent : NSObject
 + (instancetype)eventWithMessage:(NSString *)message firstResponder:(id)firstResponder;
