@@ -4,4 +4,5 @@
 @interface YTSegmentableInlinePlayerBarView : UIView <YTPlayerBarProtocol>
 @property (nonatomic, readonly, assign) CGFloat totalTime;
 @property (nonatomic, readwrite, strong) YTPlayerViewController *playerViewController;
+- (BOOL)isVideoModeLive;
 @end
