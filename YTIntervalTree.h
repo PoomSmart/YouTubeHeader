@@ -5,5 +5,5 @@
 - (YTIntervalNode *)root;
 - (NSUInteger)count;
 - (NSMutableSet <YTInterval *> *)allIntervals;
-- (void)enumerateAllIntervalsWithBlock:(void (^)(YTInterval *interval, BOOL *stop))block;
+- (void)enumerateAllIntervalsWithBlock:(void (^)(YTInterval *interval))block;
 @end
