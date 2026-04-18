@@ -1,5 +1,6 @@
-#import "GPBMessage.h"
+#import "YTIIcon.h"
 
 @interface YTIPivotBarIconOnlyItemRenderer : GPBMessage
-- (NSString *)pivotIdentifier;
+@property (nonatomic, copy, readwrite) NSString *pivotIdentifier;
+@property (nonatomic, strong, readwrite) YTIIcon *icon;
 @end
