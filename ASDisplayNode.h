@@ -21,6 +21,8 @@
 - (UIView *)view;
 - (BOOL)isNodeLoaded;
 - (void)setNeedsLayout;
+- (void)setNeedsDisplay;
+- (void)setTintColor:(UIColor *)tintColor;
 - (void)addSubnode:(id)subnode;
 - (void)addYogaChild:(id)child;
 @end
