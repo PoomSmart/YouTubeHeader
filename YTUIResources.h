@@ -10,5 +10,6 @@
 + (UIImage *)tabIconAccountImageWithSelected:(BOOL)selected;
 + (UIImage *)xCircleOutline;
 + (UIImage *)outlineTextWithColor:(UIColor *)color;
++ (UIImage *)tintImage:(UIImage *)image color:(UIColor *)color;
 + (BOOL)delhiIconsEnabled;
 @end
