@@ -2,6 +2,7 @@
 
 @interface YTUIResources : NSObject
 + (UIImage *)actionsheetDefaultImage;
++ (UIImage *)actionsheetUnsubscribeImage;
 + (UIImage *)bookmarkOutline;
 + (UIImage *)closedCaptionIconImage;
 + (UIImage *)iconAccountCircle;

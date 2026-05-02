@@ -77,6 +77,7 @@ typedef enum {
     YT_CAST_OUTLINE = 886,
     YT_AUDIO = 891,
     YT_TEXT = 897,
+    YT_PERSON_MINUS = 902,
     YT_SELL = 903,
     YT_MOON_Z = 916,
     YT_BAG = 930,
