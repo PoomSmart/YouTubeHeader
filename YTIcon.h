@@ -37,6 +37,7 @@ typedef enum {
     YT_QUEUE_PLAY_NEXT = 251,
     YT_ADD = 256,
     YT_EMOJI = 279,
+    YT_TAB_EXPLORE = 292,
     YT_LIKE_SELECTED = 301,
     YT_DISLIK_SELECTED = 302,
     YT_MONEY_FILL = 321,

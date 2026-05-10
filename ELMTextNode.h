@@ -4,4 +4,5 @@
 @interface ELMTextNode : ASTextNode
 @property (atomic, strong, readwrite) ELMElement *element;
 - (instancetype)initWithElement:(ELMElement *)element context:(id)context;
+- (void)updateAttributedText;
 @end
