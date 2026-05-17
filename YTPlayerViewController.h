@@ -21,7 +21,6 @@
 - (CGFloat)currentVideoMediaTime;
 - (CGFloat)currentVideoTotalMediaTime;
 - (int)playerViewLayout;
-- (BOOL)isMDXActive;
 - (void)replay;
 - (void)replayWithSeekSource:(int)seekSource;
 - (void)didPressToggleFullscreen;
@@ -30,5 +29,7 @@
 - (void)seekToTime:(CGFloat)time;
 - (id)activeVideoPlayerOverlay; // YTMainAppVideoPlayerOverlayViewController || YTInlineMutedPlaybackPlayerOverlayViewController
 - (YTPlayerView *)playerView;
+- (BOOL)isMDXActive;
 - (BOOL)isCurrentVideoVertical;
+- (BOOL)isInlinePlaybackActive;
 @end
