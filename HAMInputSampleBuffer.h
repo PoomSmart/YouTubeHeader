@@ -5,6 +5,7 @@
 - (NSInteger)sampleCount;
 - (NSData *)data;
 - (NSInteger)sizeForSample:(NSInteger)idx;
+- (NSUInteger)sampleSizeForSample:(NSInteger)idx;
 - (CMSampleTimingInfo)timingInfoForSample:(NSInteger)idx;
 - (CMTime)presentationTime;
 - (CMTime)originalPresentationTime;
