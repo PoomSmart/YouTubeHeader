@@ -1,5 +1,6 @@
 #import "MLFormat.h"
 #import "MLHAMPlayerItem.h"
+#import "MLPlayerReloadContext.h"
 #import "MLPlayerStickySettings.h"
 #import "MLQueuePlayerDelegate.h"
 #import "YTSingleVideo.h"
@@ -14,4 +15,5 @@
 - (NSArray <MLFormat *> *)selectableVideoFormats;
 - (BOOL)isMuted;
 - (void)setMuted:(BOOL)muted;
+- (void)reloadPlayerWithContext:(MLPlayerReloadContext *)context;
 @end

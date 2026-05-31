@@ -4,4 +4,5 @@
 @interface MLHAMQueuePlayer : MLHAMPlayer
 @property (nonatomic, weak, readwrite) id <MLPlayerDelegate> delegate;
 - (void)internalSetRate;
+- (void)maybeSwitchToAVPlayer;
 @end
