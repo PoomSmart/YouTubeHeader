@@ -1,5 +1,5 @@
 #import "YTIClientInfo.h"
 
-@interface YTIInnerTubeContext : NSObject
-- (YTIClientInfo *)client;
+@interface YTIInnerTubeContext : GPBMessage
+@property (nonatomic, readwrite, strong) YTIClientInfo *client;
 @end
