@@ -75,6 +75,7 @@ typedef enum {
     YT_OUTLINE_ADJUST = 831,
     YT_PHOTO_CAMERA_OUTLINE = 851,
     YT_GIFT = 864,
+    YT_KIDS_RED_LOGO = 880, // End of 16.32.6 icons
     YT_CAST_OUTLINE = 886,
     YT_AUDIO = 891,
     YT_TEXT = 897,
@@ -117,4 +118,5 @@ typedef enum {
     YT_CREATION_TAB_LARGE_CAIRO = 1161,
     YT_SETTINGS_CAIRO = 1162,
     YT_SETTINGS_SHARE_CAIRO = 1174,
+    YT_FILL_AUDIO_16 = 1239,
 } YTIcon;

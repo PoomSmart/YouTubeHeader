@@ -3,6 +3,7 @@
 @interface YTUIResources : NSObject
 + (UIImage *)actionsheetDefaultImage;
 + (UIImage *)actionsheetUnsubscribeImage;
++ (UIImage *)audioFillWithColor:(UIColor *)color;
 + (UIImage *)bookmarkOutline;
 + (UIImage *)closedCaptionIconImage;
 + (UIImage *)iconAccountCircle;
