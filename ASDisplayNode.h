@@ -25,4 +25,5 @@
 - (void)setTintColor:(UIColor *)tintColor;
 - (void)addSubnode:(id)subnode;
 - (void)addYogaChild:(id)child;
+- (void)insertYogaChild:(id)child atIndex:(NSUInteger)index;
 @end
