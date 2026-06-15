@@ -1,5 +1,4 @@
-#import <Foundation/NSObject.h>
+#import "GPBMessage.h"
 
-@interface ELMPBProperties : NSObject
-- (id)firstSubmessage;
+@interface ELMPBProperties : GPBMessage
 @end

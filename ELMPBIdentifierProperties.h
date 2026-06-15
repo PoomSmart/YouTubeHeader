@@ -1,5 +1,5 @@
-#import <Foundation/NSObject.h>
+#import "GPBMessage.h"
 
-@interface ELMPBIdentifierProperties : NSObject
+@interface ELMPBIdentifierProperties : GPBMessage
 - (id)identifier;
 @end

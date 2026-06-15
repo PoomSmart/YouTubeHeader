@@ -1,6 +1,7 @@
+#import "ELMPBProperties.h"
 #import "ELMPBType.h"
 
-@interface ELMPBElement : NSObject
-@property (nonatomic, strong, readwrite) ELMPBType *type;
-- (id)properties;
+@interface ELMPBElement : GPBMessage
+@property (nonatomic, readwrite, strong) ELMPBType *type;
+@property (nonatomic, readwrite, strong) ELMPBProperties *properties;
 @end

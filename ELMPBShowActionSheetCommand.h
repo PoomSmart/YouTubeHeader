@@ -1,5 +1,8 @@
-#import <Foundation/NSObject.h>
+#import "ELMPBElement.h"
 
-@interface ELMPBShowActionSheetCommand : NSObject
-- (id)listOptionArray;
+@interface ELMPBShowActionSheetCommand : GPBMessage
+@property (nonatomic, readwrite, copy) NSString *sheetId;
+@property (nonatomic, readwrite, strong) ELMPBElement *header;
+@property (nonatomic, readwrite, strong) ELMPBElement *footer;
+@property (nonatomic, readwrite, strong) NSMutableArray *listOptionArray;
 @end
