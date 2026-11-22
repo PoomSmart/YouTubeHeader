@@ -2,4 +2,5 @@
 
 @interface GPBUnknownFieldSet : NSObject <NSCopying>
 - (GPBUnknownField *)getField:(int32_t)number;
+- (NSArray<GPBUnknownField *> *)sortedFields;
 @end
